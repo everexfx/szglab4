@@ -6,6 +6,6 @@
  * @author Bety‡rKšrte
  *
  */
-public class Field {
-	
+public class AntLion implements StaticElement {
+
 }
