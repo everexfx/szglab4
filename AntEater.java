@@ -6,8 +6,10 @@
  * @author Bety‡rKšrte
  *
  */
-public class AntEater extends DynamicElement {
+public class AntEater extends DynamicElement implements Killer {
 
+	private int antsEaten = 0;
+	
 	public AntEater(Map map, Direction dir, Field f) {
 		super(map, dir, f);
 		// TODO Auto-generated constructor stub
@@ -54,6 +56,12 @@ public class AntEater extends DynamicElement {
 	 */
 	@Override
 	void stepOnThisDynamicElement(DynamicElement d) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void killedAnt() {
 		// TODO Auto-generated method stub
 		
 	}

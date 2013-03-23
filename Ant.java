@@ -7,6 +7,8 @@
  *
  */
 public class Ant extends DynamicElement {
+	
+	private Tentacle t;
 
 	public Ant(Map map, Direction dir, Field f) {
 		super(map, dir, f);
@@ -45,6 +47,14 @@ public class Ant extends DynamicElement {
 	 */
 	@Override
 	void reagateToAntEater(AntLion a) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	/**
+	 * @param v
+	 */
+	void reagateToVenom(Venom v) {
 		// TODO Auto-generated method stub
 		
 	}
