@@ -3,7 +3,9 @@
  */
 
 /**
- * @author Bety‡rKšrte
+ * 
+ * 
+ * @author Betyï¿½rKï¿½rte
  *
  */
 public class AntEater extends DynamicElement implements Killer {
