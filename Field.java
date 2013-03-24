@@ -71,6 +71,14 @@ public class Field {
 		return neighbors.get(d);
 	}
 	
+	/**
+	 * @param f the field to set
+	 * @param d the direction to set the field in
+	 */
+	public void addNeighbor(Field f, Direction d) {
+		neighbors.put(d, f);
+	}
+	
 	public void neutralizeAntSmell() {
 		
 	}
